@@ -1,0 +1,33 @@
+{
+  "name": "typescript-starter-template",
+  "version": "1.0.0",
+  "description": "A typescript starter template for nodejs applications.",
+  "keywords": [
+    "template"
+  ],
+  "author": {
+    "name" : "Oliver Rademaker",
+    "email" : "info@oliverrademaker.de",
+    "url" : "https://github.com/kyromoto"
+  },
+  "homepage": "https://github.com/kyromoto/typescript-starter-template#readme",
+  "license": "MIT",
+  "private" : true,
+  "main": "build/app.ts",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "start" : "tsc && node dist/app.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "6.1.3",
+    "typescript": "4.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyromoto/typescript-starter-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kyromoto/typescript-starter-template/issues"
+  }
+}
